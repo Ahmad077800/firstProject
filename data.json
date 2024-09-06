@@ -1,0 +1,443 @@
+[
+    {
+        "id": 1,
+        "image":"./image/ahmad.webp",
+        "name": "Ahmad Janajrah",
+        "Submitted_on": "1/3/2024",
+        "Duration":"2 Weeks (1/4/2023 - 14/4/2023)",
+        "Salary":"7000 AED"
+    },
+    {
+        "id": 2,
+        "image":"./image/img1.jpg",
+        "name": "sara",
+        "Submitted_on": "1/3/2024",
+        "Duration":"2 Weeks (1/4/2023 - 14/4/2023)",
+        "Salary":"1500 AED"
+    },
+    {
+        "id": 3,
+        "image":"./image/img2.jpg",
+        "name": "mohamad",
+        "Submitted_on": "1/3/2024",
+        "Duration":"2 Weeks (1/4/2023 - 14/4/2023)",
+        "Salary":"1000 AED"
+    },
+    {
+        "id": 4,
+        "image":"./image/img3.jpg",
+        "name": "Raneem",
+        "Submitted_on": "1/3/2024",
+        "Duration":"2 Weeks (1/4/2023 - 14/4/2023)",
+        "Salary":"2000 AED"
+    },
+    {
+        "id": 5,
+        "image":"./image/img4.webp",
+        "name": "Qusai",
+        "Submitted_on": "14/4/2024",
+        "Duration":"2 Weeks (1/4/2023 - 14/4/2023)",
+        "Salary":"4000 AED"
+    },
+    {
+        "id": 6,
+        "image":"./image/img10.jfif",
+        "name": "majd",
+        "Submitted_on": "14/4/2024",
+        "Duration":"2 Weeks (1/4/2023 - 14/4/2023)",
+        "Salary":"1000 AED"
+    },
+    {
+        "id": 7,
+        "image":"./image/img6.webp",
+        "name": "nezar",
+        "Submitted_on": "14/4/2024",
+        "Duration":"2 Weeks (1/4/2023 - 14/4/2023)",
+        "Salary":"5000 AED"
+    },
+    {
+        "id": 8,
+        "image":"./image/img11.jfif",
+        "name": "shroq",
+        "Submitted_on": "14/4/2024",
+        "Duration":"2 Weeks (1/4/2023 - 14/4/2023)",
+        "Salary":"1000 AED"
+    },
+    {
+        "id": 9,
+        "image":"./image/img8.jfif",
+        "name": "Ali",
+        "Submitted_on": "14/4/2024",
+        "Duration":"2 Weeks (1/4/2023 - 14/4/2023)",
+        "Salary":"1000 AED"
+    },
+    {
+        "id": 10,
+        "image":"./image/img9.jfif",
+        "name": "Mahr",
+        "Submitted_on": "14/4/2024",
+        "Duration":"2 Weeks (1/4/2023 - 14/4/2023)",
+        "Salary":"1000 AED"
+    },
+    {
+        "id": 2,
+        "image":"./image/img1.jpg",
+        "name": "sara",
+        "Submitted_on": "1/3/2024",
+        "Duration":"2 Weeks (1/4/2023 - 14/4/2023)",
+        "Salary":"1500 AED"
+    },
+    {
+        "id": 3,
+        "image":"./image/img2.jpg",
+        "name": "mohamad",
+        "Submitted_on": "1/3/2024",
+        "Duration":"2 Weeks (1/4/2023 - 14/4/2023)",
+        "Salary":"1000 AED"
+    },
+    {
+        "id": 4,
+        "image":"./image/img3.jpg",
+        "name": "Raneem",
+        "Submitted_on": "1/3/2024",
+        "Duration":"2 Weeks (1/4/2023 - 14/4/2023)",
+        "Salary":"2000 AED"
+    },
+    {
+        "id": 5,
+        "image":"./image/img4.webp",
+        "name": "Qusai",
+        "Submitted_on": "14/4/2024",
+        "Duration":"2 Weeks (1/4/2023 - 14/4/2023)",
+        "Salary":"4000 AED"
+    },
+    {
+        "id": 6,
+        "image":"./image/img10.jfif",
+        "name": "majd",
+        "Submitted_on": "14/4/2024",
+        "Duration":"2 Weeks (1/4/2023 - 14/4/2023)",
+        "Salary":"1000 AED"
+    },
+    {
+        "id": 7,
+        "image":"./image/img6.webp",
+        "name": "nezar",
+        "Submitted_on": "14/4/2024",
+        "Duration":"2 Weeks (1/4/2023 - 14/4/2023)",
+        "Salary":"5000 AED"
+    },
+    {
+        "id": 8,
+        "image":"./image/img11.jfif",
+        "name": "shroq",
+        "Submitted_on": "14/4/2024",
+        "Duration":"2 Weeks (1/4/2023 - 14/4/2023)",
+        "Salary":"1000 AED"
+    },
+    {
+        "id": 9,
+        "image":"./image/img8.jfif",
+        "name": "Ali",
+        "Submitted_on": "14/4/2024",
+        "Duration":"2 Weeks (1/4/2023 - 14/4/2023)",
+        "Salary":"1000 AED"
+    },
+    {
+        "id": 10,
+        "image":"./image/img9.jfif",
+        "name": "Mahr",
+        "Submitted_on": "14/4/2024",
+        "Duration":"2 Weeks (1/4/2023 - 14/4/2023)",
+        "Salary":"1000 AED"
+    },
+    {
+        "id": 11,
+        "image":"./image/img1.jpg",
+        "name": "sara",
+        "Submitted_on": "1/3/2024",
+        "Duration":"2 Weeks (1/4/2023 - 14/4/2023)",
+        "Salary":"1500 AED"
+    },
+    {
+        "id": 12,
+        "image":"./image/img2.jpg",
+        "name": "mohamad",
+        "Submitted_on": "1/3/2024",
+        "Duration":"2 Weeks (1/4/2023 - 14/4/2023)",
+        "Salary":"1000 AED"
+    },
+    {
+        "id": 14,
+        "image":"./image/img3.jpg",
+        "name": "Raneem",
+        "Submitted_on": "1/3/2024",
+        "Duration":"2 Weeks (1/4/2023 - 14/4/2023)",
+        "Salary":"2000 AED"
+    },
+    {
+        "id": 15,
+        "image":"./image/img4.webp",
+        "name": "Qusai",
+        "Submitted_on": "14/4/2024",
+        "Duration":"2 Weeks (1/4/2023 - 14/4/2023)",
+        "Salary":"4000 AED"
+    },
+    {
+        "id": 16,
+        "image":"./image/img10.jfif",
+        "name": "majd",
+        "Submitted_on": "14/4/2024",
+        "Duration":"2 Weeks (1/4/2023 - 14/4/2023)",
+        "Salary":"1000 AED"
+    },
+    {
+        "id": 17,
+        "image":"./image/img6.webp",
+        "name": "nezar",
+        "Submitted_on": "14/4/2024",
+        "Duration":"2 Weeks (1/4/2023 - 14/4/2023)",
+        "Salary":"5000 AED"
+    },
+    {
+        "id": 18,
+        "image":"./image/img11.jfif",
+        "name": "shroq",
+        "Submitted_on": "14/4/2024",
+        "Duration":"2 Weeks (1/4/2023 - 14/4/2023)",
+        "Salary":"1000 AED"
+    },
+    {
+        "id": 19,
+        "image":"./image/img8.jfif",
+        "name": "Ali",
+        "Submitted_on": "14/4/2024",
+        "Duration":"2 Weeks (1/4/2023 - 14/4/2023)",
+        "Salary":"1000 AED"
+    },
+    {
+        "id": 20,
+        "image":"./image/img9.jfif",
+        "name": "Mahr",
+        "Submitted_on": "14/4/2024",
+        "Duration":"2 Weeks (1/4/2023 - 14/4/2023)",
+        "Salary":"1000 AED"
+    },
+    {
+        "id": 2,
+        "image":"./image/img1.jpg",
+        "name": "sara",
+        "Submitted_on": "1/3/2024",
+        "Duration":"2 Weeks (1/4/2023 - 14/4/2023)",
+        "Salary":"1500 AED"
+    },
+    {
+        "id": 3,
+        "image":"./image/img2.jpg",
+        "name": "mohamad",
+        "Submitted_on": "1/3/2024",
+        "Duration":"2 Weeks (1/4/2023 - 14/4/2023)",
+        "Salary":"1000 AED"
+    },
+    {
+        "id": 4,
+        "image":"./image/img3.jpg",
+        "name": "Raneem",
+        "Submitted_on": "1/3/2024",
+        "Duration":"2 Weeks (1/4/2023 - 14/4/2023)",
+        "Salary":"2000 AED"
+    },
+    {
+        "id": 5,
+        "image":"./image/img4.webp",
+        "name": "Qusai",
+        "Submitted_on": "14/4/2024",
+        "Duration":"2 Weeks (1/4/2023 - 14/4/2023)",
+        "Salary":"4000 AED"
+    },
+    {
+        "id": 6,
+        "image":"./image/img10.jfif",
+        "name": "majd",
+        "Submitted_on": "14/4/2024",
+        "Duration":"2 Weeks (1/4/2023 - 14/4/2023)",
+        "Salary":"1000 AED"
+    },
+    {
+        "id": 7,
+        "image":"./image/img6.webp",
+        "name": "nezar",
+        "Submitted_on": "14/4/2024",
+        "Duration":"2 Weeks (1/4/2023 - 14/4/2023)",
+        "Salary":"5000 AED"
+    },
+    {
+        "id": 8,
+        "image":"./image/img11.jfif",
+        "name": "shroq",
+        "Submitted_on": "14/4/2024",
+        "Duration":"2 Weeks (1/4/2023 - 14/4/2023)",
+        "Salary":"1000 AED"
+    },
+    {
+        "id": 9,
+        "image":"./image/img8.jfif",
+        "name": "Ali",
+        "Submitted_on": "14/4/2024",
+        "Duration":"2 Weeks (1/4/2023 - 14/4/2023)",
+        "Salary":"1000 AED"
+    },
+    {
+        "id": 10,
+        "image":"./image/img9.jfif",
+        "name": "Mahr",
+        "Submitted_on": "14/4/2024",
+        "Duration":"2 Weeks (1/4/2023 - 14/4/2023)",
+        "Salary":"1000 AED"
+    },
+    {
+        "id": 2,
+        "image":"./image/img1.jpg",
+        "name": "sara",
+        "Submitted_on": "1/3/2024",
+        "Duration":"2 Weeks (1/4/2023 - 14/4/2023)",
+        "Salary":"1500 AED"
+    },
+    {
+        "id": 3,
+        "image":"./image/img2.jpg",
+        "name": "mohamad",
+        "Submitted_on": "1/3/2024",
+        "Duration":"2 Weeks (1/4/2023 - 14/4/2023)",
+        "Salary":"1000 AED"
+    },
+    {
+        "id": 4,
+        "image":"./image/img3.jpg",
+        "name": "Raneem",
+        "Submitted_on": "1/3/2024",
+        "Duration":"2 Weeks (1/4/2023 - 14/4/2023)",
+        "Salary":"2000 AED"
+    },
+    {
+        "id": 5,
+        "image":"./image/img4.webp",
+        "name": "Qusai",
+        "Submitted_on": "14/4/2024",
+        "Duration":"2 Weeks (1/4/2023 - 14/4/2023)",
+        "Salary":"4000 AED"
+    },
+    {
+        "id": 6,
+        "image":"./image/img10.jfif",
+        "name": "majd",
+        "Submitted_on": "14/4/2024",
+        "Duration":"2 Weeks (1/4/2023 - 14/4/2023)",
+        "Salary":"1000 AED"
+    },
+    {
+        "id": 7,
+        "image":"./image/img6.webp",
+        "name": "nezar",
+        "Submitted_on": "14/4/2024",
+        "Duration":"2 Weeks (1/4/2023 - 14/4/2023)",
+        "Salary":"5000 AED"
+    },
+    {
+        "id": 8,
+        "image":"./image/img11.jfif",
+        "name": "shroq",
+        "Submitted_on": "14/4/2024",
+        "Duration":"2 Weeks (1/4/2023 - 14/4/2023)",
+        "Salary":"1000 AED"
+    },
+    {
+        "id": 9,
+        "image":"./image/img8.jfif",
+        "name": "Ali",
+        "Submitted_on": "14/4/2024",
+        "Duration":"2 Weeks (1/4/2023 - 14/4/2023)",
+        "Salary":"1000 AED"
+    },
+    {
+        "id": 10,
+        "image":"./image/img9.jfif",
+        "name": "Mahr",
+        "Submitted_on": "14/4/2024",
+        "Duration":"2 Weeks (1/4/2023 - 14/4/2023)",
+        "Salary":"1000 AED"
+    },
+    {
+        "id": 11,
+        "image":"./image/img1.jpg",
+        "name": "sara",
+        "Submitted_on": "1/3/2024",
+        "Duration":"2 Weeks (1/4/2023 - 14/4/2023)",
+        "Salary":"1500 AED"
+    },
+    {
+        "id": 12,
+        "image":"./image/img2.jpg",
+        "name": "mohamad",
+        "Submitted_on": "1/3/2024",
+        "Duration":"2 Weeks (1/4/2023 - 14/4/2023)",
+        "Salary":"1000 AED"
+    },
+    {
+        "id": 14,
+        "image":"./image/img3.jpg",
+        "name": "Raneem",
+        "Submitted_on": "1/3/2024",
+        "Duration":"2 Weeks (1/4/2023 - 14/4/2023)",
+        "Salary":"2000 AED"
+    },
+    {
+        "id": 15,
+        "image":"./image/img4.webp",
+        "name": "Qusai",
+        "Submitted_on": "14/4/2024",
+        "Duration":"2 Weeks (1/4/2023 - 14/4/2023)",
+        "Salary":"4000 AED"
+    },
+    {
+        "id": 16,
+        "image":"./image/img10.jfif",
+        "name": "majd",
+        "Submitted_on": "14/4/2024",
+        "Duration":"2 Weeks (1/4/2023 - 14/4/2023)",
+        "Salary":"1000 AED"
+    },
+    {
+        "id": 17,
+        "image":"./image/img6.webp",
+        "name": "nezar",
+        "Submitted_on": "14/4/2024",
+        "Duration":"2 Weeks (1/4/2023 - 14/4/2023)",
+        "Salary":"5000 AED"
+    },
+    {
+        "id": 18,
+        "image":"./image/img11.jfif",
+        "name": "shroq",
+        "Submitted_on": "14/4/2024",
+        "Duration":"2 Weeks (1/4/2023 - 14/4/2023)",
+        "Salary":"1000 AED"
+    },
+    {
+        "id": 19,
+        "image":"./image/img8.jfif",
+        "name": "Ali",
+        "Submitted_on": "14/4/2024",
+        "Duration":"2 Weeks (1/4/2023 - 14/4/2023)",
+        "Salary":"1000 AED"
+    },
+    {
+        "id": 20,
+        "image":"./image/img9.jfif",
+        "name": "Mahr",
+        "Submitted_on": "14/4/2024",
+        "Duration":"2 Weeks (1/4/2023 - 14/4/2023)",
+        "Salary":"1000 AED"
+    }
+   
+]

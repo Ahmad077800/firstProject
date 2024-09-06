@@ -1,0 +1,169 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link href="https://cdn.jsdelivr.net/npm/bootstrap@5.0.2/dist/css/bootstrap.min.css" rel="stylesheet" integrity="sha384-EVSTQN3/azprG1Anm3QDgpJLIm9Nao0Yz1ztcQTwFspd3yD65VohhpuuCOmLASjC" crossorigin="anonymous">
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.6.0/css/all.min.css" integrity="sha512-Kc323vGBEqzTmouAECnVceyQqyqdsSiqLQISBL29aUW4U/M7pSPA/gEUZQqv1cwx4OnYxTxve5UMg5GT6L4JJg==" crossorigin="anonymous" referrerpolicy="no-referrer" />
+    <link rel="stylesheet" href="./style.css">
+    <style>
+        @media (max-width: 768px) {
+            .card {
+                max-width: 100%;
+                margin: 0 auto 20px;
+            }
+
+            .carousel-item img {
+                height: 200px;
+                object-fit: cover;
+            }
+
+            .carousel .text {
+                bottom: 0; 
+                left: 0; 
+                width: 100%;
+                margin-top: 0; 
+            }
+
+            .vacation_requests {
+                margin-top: 20px; 
+            }
+        }
+    </style>
+    <title>Home Page</title>
+</head>
+<body>
+    <div id="navbar"></div>
+
+    <div class="container mt-5">
+        <div class="row mb-4">
+            <div class="col-12 d-flex align-items-center justify-content-between">
+                <h6 class="mb-0">Welcome Back Hazem! Here are your latest updates.</h6>
+                <button type="button" class="btn btn-success">New Request</button>
+            </div>
+        </div>
+
+        <div class="row">
+            <div class="col-lg-8 col-md-12 mb-4">
+                <div class="border p-3 d-flex flex-column" style="background-color:#cec9c9;">
+                    <div class="d-flex align-items-center mb-3">
+                        <img src="./image/ahmad.webp" alt="Profile" class="img-fluid rounded-circle" style="width: 40px; height: 40px;">
+                        <div class="d-flex flex-column ms-2">
+                            <p class="mb-0">Ahmad_Janajrah</p>
+                            <p class="mb-0">Junior Accounting Officer</p>
+                        </div>
+                        <a href="profile.html" class="btn btn-outline-success ms-auto" style="width: 150px;">View Profile</a>
+                    </div>
+                    <div class="d-flex flex-column flex-md-row">
+                        <div class="d-flex align-items-start mb-3 mb-md-0">
+                            <i class="fa-solid fa-user" style="font-size: 50px; margin-right: 8px;"></i>
+                            <div class="d-flex flex-column">
+                                <p class="mb-0">Reporting To:</p>
+                                <p class="mb-0">Salwa Assem</p>
+                            </div>
+                        </div>
+                        <div class="d-flex align-items-start ms-md-4">
+                            <i class="fa-solid fa-hand-point-up" style="font-size: 50px; margin-right: 8px;"></i>
+                            <div class="d-flex flex-column">
+                                <p class="mb-0">Corporate Level:</p>
+                                <p class="mb-0">Level 10</p>
+                            </div>
+                        </div>
+                    </div>
+                </div>
+            </div>
+
+            <div class="col-lg-4 col-md-12 d-flex flex-column flex-md-row justify-content-between">
+                <div class="border p-3 mb-3 mb-md-0 d-flex align-items-center flex-grow-1" style="background-color: green;">
+                    <div>
+                        <i class="fa-regular fa-rectangle-list" style="font-size: 50px; margin-right: 8px; color: #ffffff;"></i>
+                        <p class="mb-0 mt-2" style="color: #ffffff;">Vacation</p>
+                        <p class="mb-0" style="color: #ffffff;">Requests</p>
+                    </div>
+                    <p class="ms-auto" style="font-size: 50px; color: #ffffff;">10</p>
+                </div>
+                <div class="border p-3 d-flex align-items-center flex-grow-1" style="background-color: green;">
+                    <div>
+                        <i class="fa-regular fa-rectangle-list" style="font-size: 50px; margin-right: 8px; color: #ffffff;"></i>
+                        <p class="mb-0 mt-2" style="color: #ffffff;">Vacation</p>
+                        <p class="mb-0" style="color: #ffffff;">Requests</p>
+                    </div>
+                    <p class="ms-auto" style="font-size: 50px; color: #ffffff;">10</p>
+                </div>
+            </div>
+        </div>
+
+        <h6>Latest News:</h6>
+
+        <!-- Carousel -->
+        <div id="newsCarousel" class="carousel slide" data-bs-ride="carousel" data-bs-interval="10000">
+            <div class="carousel-inner">
+                <div class="carousel-item active">
+                    <img src="./image/c3.jfif" class="d-block w-100" alt="News 1">
+                </div>
+                <div class="carousel-item">
+                    <img src="./image/c1.jpg" class="d-block w-100" alt="News 2">
+                </div>
+                <div class="carousel-item">
+                    <img src="./image/c2.jpg" class="d-block w-100" alt="News 3">
+                </div>
+            </div>
+            <div class="text">
+                <h6>Best Spots For A Summer Vacation</h6>
+                <h6>Check out these spots where we provide you with a discount code!</h6>
+            </div>
+            <button class="carousel-control-prev" type="button" data-bs-target="#newsCarousel" data-bs-slide="prev">
+                <span class="carousel-control-prev-icon" aria-hidden="true"></span>
+                <span class="visually-hidden">Previous</span>
+            </button>
+            <button class="carousel-control-next" type="button" data-bs-target="#newsCarousel" data-bs-slide="next">
+                <span class="carousel-control-next-icon" aria-hidden="true"></span>
+                <span class="visually-hidden">Next</span>
+            </button>
+        </div>
+
+        <div class="vacation_requests mt-5 border" style="background-color:#e4e4e4;">
+            <div class="head_vacation_requests d-flex justify-content-between p-3">
+                <div class="d-flex align-items-center">
+                    <i class="fa-sharp fa-solid fa-rectangle-list" style="font-size: 50px; margin-right: 8px; color: green;"></i>
+                    <h6>Vacation Requests</h6>
+                </div>
+                <div class="search-wrapper" style="position: relative;">
+                    <i class="fa-solid fa-search" style="position: absolute; left: 10px; top: 15px; transform: translateY(-50%); color: green;"></i>
+                    <input type="search" id="search" data-search placeholder="search..." style="padding-left: 30px;">
+                </div>
+            </div>
+            <hr>
+        
+            <div class="user-cards-container d-flex flex-wrap justify-content-between" data-user-container>
+                <template data-user-template>
+                    <div class="card border m-4" style="width: 100%; max-width: 200px; padding: 20px;">
+                        <div style="text-align: center;">
+                            <img src="" alt="User Image" class="img-card" style="width: 80px; height: 80px; border-radius: 50%; object-fit: cover; margin-bottom: 15px;">
+                            <p class="bold name" data-name style="margin: 0;"></p> 
+                        </div>
+                        <div style="text-align: left; padding-top: 15px;">
+                            <p style="color: #777;">Submitted on:</p>
+                            <p class="bold Submitted_on" data-Submitted></p>
+                            <p style="color: #777;">Duration:</p>
+                            <p class="bold Duration" data-duration></p>
+                            <p style="color: #777;">Salary:</p>
+                            <p class="bold Salary" data-salary></p>
+                           <div class="d-flex justify-content-between">
+                            <button type="button" class="btn btn-outline-success">Decline</button>
+                            <button type="button" class="btn btn-success">Approve</button>
+                           </div>
+                        </div>
+                    </div>
+                </template>
+            </div>
+            <div class="d-flex justify-content-end m-3">
+                <a href="./requests.html" class="view-more-link">View More ></a>
+            </div>
+        </div>
+    </div><!-- endContainer -->
+
+    <script src="https://cdn.jsdelivr.net/npm/bootstrap@5.0.2/dist/js/bootstrap.bundle.min.js" integrity="sha384-MrcW6ZMFYlzcLA8Nl+NtUVF0sA7MsXsP1UyJoMp4YLEuNSfAP+JcXn/tWtIaxVXM" crossorigin="anonymous"></script>
+    <script src="./main.js"></script>
+</body>
+</html>

@@ -1,0 +1,213 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link href="https://cdn.jsdelivr.net/npm/bootstrap@5.0.2/dist/css/bootstrap.min.css" rel="stylesheet" integrity="sha384-EVSTQN3/azprG1Anm3QDgpJLIm9Nao0Yz1ztcQTwFspd3yD65VohhpuuCOmLASjC" crossorigin="anonymous">
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.6.0/css/all.min.css" integrity="sha512-Kc323vGBEqzTmouAECnVceyQqyqdsSiqLQISBL29aUW4U/M7pSPA/gEUZQqv1cwx4OnYxTxve5UMg5GT6L4JJg==" crossorigin="anonymous" referrerpolicy="no-referrer" />
+    <link rel="stylesheet" href="./style.css">
+    <style>
+         @media (max-width: 768px) {
+            .profile-card {
+                padding: 15px;
+            }
+            .profile-card img {
+                width: 80px;
+                height: 80px;
+            }
+            .history-card, .pending-request-card {
+                padding: 10px;
+            }
+            .pending-request-card {
+                max-width: 100%;
+            }
+            .d-flex {
+                flex-direction: column;
+            }
+            .d-flex .ms-md-4 {
+                margin-top: 10px;
+                margin-left: 0;
+            }
+        }
+    </style>
+    <title>Profile Page</title>
+</head>
+<body>
+    <div id="navbar"></div>
+
+    <div class="container mt-5">
+        <div class="row">
+            <div class="col-lg-12 col-md-12 mb-4">
+                <div class="border d-flex flex-column p-4" style="background-color:#cec9c9; height: 100%; border-radius: 20px;">
+                    <div class="d-flex align-items-center mb-4">
+                        <img src="./image/ahmad.webp" alt="Profile" class="img-fluid rounded-circle" style="width: 55px; height: 55px;">
+                        <div class="d-flex flex-column ms-3">
+                            <p class="mb-1">Ahmad_Janajrah</p>
+                            <p class="mb-1">Marketing Department</p>
+                            <p style="color: #777 " class="mb-1">Junior Accounting Officer</p>
+                        </div>
+                        <a href="#" class="btn btn-outline-success ms-auto" style="width: 150px; text-decoration: none;">New Request</a>
+                    </div>
+                    <div class="d-flex flex-column flex-md-row justify-content-between">
+                        <div class="d-flex align-items-start mb-3 mb-md-0">
+                            <i class="fa-solid fa-user me-2" style="font-size: 50px; color: #6d6969;"></i>
+                            <div>
+                                <p class="mb-1 bold"style="color: black;">Reporting To:</p>
+                                <p class="mb-0">Salwa Assem</p>
+                            </div>
+                        </div>
+                        <div class="d-flex align-items-start mb-3 mb-md-0 ms-md-4">
+                            <i class="fa-solid fa-arrow-trend-up me-2" style="font-size: 50px;color: #6d6969;"></i>
+                            <div>
+                                <p class="mb-1 bold"style="color: black;">Corporate Level:</p>
+                                <p class="mb-0">Level 10</p>
+                            </div>
+                        </div>
+                        <div class="d-flex align-items-start mb-3 mb-md-0 ms-md-4">
+                            <i class="fa-regular fa-hand  me-2" style="font-size: 50px;color: #6d6969;"></i>
+                            <div>
+                                <p class="mb-1 bold"style="color: black;">Lifetime:</p>
+                                <p class="mb-0">2.5 Years</p>
+                            </div>
+                        </div>
+                        <div class="d-flex align-items-start mb-3 mb-md-0 ms-md-4">
+                            <i class="fa-solid fa-tree me-2" style="font-size: 50px;color: #6d6969;"></i>
+                            <div>
+                                <p class="mb-1 bold" style="color: black;">Vacation Days Left:</p>
+                                <p class="mb-0">10 Days</p>
+                            </div>
+                        </div>
+                        <div class="d-flex align-items-start ms-md-4">
+                            <i class="fa-solid fa-head-side-cough me-2"style="font-size: 50px;color: #6d6969;"></i>
+                            <div>
+                                <p class="mb-1 bold"style="color: black;">Sick Days Left:</p>
+                                <p class="mb-0">14 Days</p>
+                            </div>
+                        </div>
+                    </div>
+                </div>
+            </div>
+        </div>
+        <div class="row">
+            <div class="col-lg-12 col-md-12 mb-4">
+                <div class="border p-4" style="background-color:#cec9c9; height: 100%; border-radius: 20px;">
+                    <div class="d-flex align-items-center">
+                        <i class="fa-solid fa-calendar-days me-2"style="font-size: 50px; color:green;"></i>
+                        <h6 class="mb-0">History</h6>
+                    </div>
+                    <hr>
+                    <div class="row">
+                        <div class="col-12 col-md-6 col-lg-4 mb-3">
+                            <div class="border p-3" style="border-radius: 20px;background-color: #ffffff;">
+                                <p>Annual Vacation</p>
+                                <p>2/3/2023 - 10/3/2023 8 days</p>
+                                <p>Approved by: Hazem Azmi</p>
+                            </div>
+                        </div>
+                        <div class="col-12 col-md-6 col-lg-4 mb-3">
+                            <div class="border p-3" style="border-radius: 20px;background-color: #ffffff;">
+                                <p>Annual Vacation</p>
+                                <p>2/3/2023 - 10/3/2023 8 days</p>
+                                <p>Approved by: Hazem Azmi</p>
+                            </div>
+                        </div>
+                        <div class="col-12 col-md-6 col-lg-4 mb-3">
+                            <div class="border p-3" style="border-radius: 20px;background-color: #ffffff;">
+                                <p>Annual Vacation</p>
+                                <p>2/3/2023 - 10/3/2023 8 days</p>
+                                <p>Approved by: Hazem Azmi</p>
+                            </div>
+                        </div>
+                        <div class="col-12 col-md-6 col-lg-4 mb-3">
+                            <div class="border p-3" style="border-radius: 20px;background-color: #ffffff;">
+                                <p>Annual Vacation</p>
+                                <p>2/3/2023 - 10/3/2023 8 days</p>
+                                <p>Approved by: Hazem Azmi</p>
+                            </div>
+                        </div>
+                        <div class="col-12 col-md-6 col-lg-4 mb-3">
+                            <div class="border p-3" style="border-radius: 20px;background-color: #ffffff;">
+                                <p>Annual Vacation</p>
+                                <p>2/3/2023 - 10/3/2023 8 days</p>
+                                <p>Approved by: Hazem Azmi</p>
+                            </div>
+                        </div>
+                        <div class="col-12 col-md-6 col-lg-4 mb-3 p-3">
+                            <div class="border p-3" style="border-radius: 20px;background-color: #ffffff;">
+                                <p>Annual Vacation</p>
+                                <p>2/3/2023 - 10/3/2023 8 days</p>
+                                <p>Approved by: Hazem Azmi</p>
+                            </div>
+                        </div>
+                        <div class="col-12 col-md-6 col-lg-4 mb-3">
+                            <div class="border p-3" style="border-radius: 20px;background-color: #ffffff;">
+                                <p>Annual Vacation</p>
+                                <p>2/3/2023 - 10/3/2023 8 days</p>
+                                <p>Approved by: Hazem Azmi</p>
+                            </div>
+                        </div>
+                    </div>
+                    <div class="d-flex justify-content-end m-3">
+                        <a href="#" class="view-more-link">View More ></a>
+                    </div>
+                </div>
+            </div>
+        </div>
+        
+        
+
+        <div class="row">
+            <div class="col-lg-12 col-md-12 mb-4">
+                <div class="border  p-4" style="background-color:#cec9c9; height: 100%; border-radius: 20px;">
+                    <div class="d-flex align-items-center">
+                        <i class="fa-regular fa-clipboard me-2"style="font-size: 50px;color: green;"></i>
+                        <h6 class="mb-0">Pending Requests</h6>
+                    </div>
+                       <div class="d-flex">
+                           <div class=" border m-4" style=" background-color: #ffffff ;max-width: 200px; padding: 20px; margin-bottom: 20px;">
+                               <div style="text-align: center;">
+                                   <img src="./image/ahmad.webp" alt="User Image" style="width: 80px; height: 80px; border-radius: 50%; object-fit: cover; margin-bottom: 15px;">
+                                   <p class="bold" style="margin: 0;">Ahmad-Janajrah</p> 
+                               </div>
+                               <div style="text-align: left; padding-top: 15px;">
+                                   <p style="color: #777;">Submitted on:</p>
+                                   <p class="bold">1/3/2024</p>
+                                   <p style="color: #777;">Duration:</p>
+                                   <p class="bold">2 Weeks (1/4/2023 - 14/4/2023)</p>
+                                   <p style="color: #777;">Currently at:</p>
+                                   <p class="bold"style="color: green;">Omar Ahmad</p>
+                               </div>
+                           </div>
+                           <div class=" border m-4" style=" background-color: #ffffff ;max-width: 200px; padding: 20px; margin-bottom: 20px;">
+                               <div style="text-align: center;">
+                                   <img src="./image/ahmad.webp" alt="User Image" style="width: 80px; height: 80px; border-radius: 50%; object-fit: cover; margin-bottom: 15px;">
+                                   <p class="bold" style="margin: 0;">Ahmad-Janajrah</p> 
+                               </div>
+                               <div style="text-align: left; padding-top: 15px;">
+                                   <p style="color: #777;">Submitted on:</p>
+                                   <p class="bold">1/3/2024</p>
+                                   <p style="color: #777;">Duration:</p>
+                                   <p class="bold">2 Weeks (1/4/2023 - 14/4/2023)</p>
+                                   <p style="color: #777;">Currently at:</p>
+                                   <p class="bold"style="color: green;">Omar Ahmad</p>
+                               </div>
+                           </div>
+                       </div>
+                       <div class="d-flex justify-content-end m-3">
+                        <a href="#" class="view-more-link">View More ></a>
+                    </div>
+                   </div>
+
+
+                      </div>
+   
+   
+   
+   
+                </div>    <!-- end-container -->
+
+
+    <script src="https://cdn.jsdelivr.net/npm/bootstrap@5.0.2/dist/js/bootstrap.bundle.min.js" integrity="sha384-MrcW6ZMFYlzcLA8Nl+NtUVF0sA7MsXsP1UyJoMp4YLEuNSfAP+JcXn/tWtIaxVXM" crossorigin="anonymous"></script>
+    <script src="./main.js"></script>
+</body>
+</html>

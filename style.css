@@ -1,0 +1,166 @@
+body {
+    padding: 0;
+    margin: 0;
+}
+.container {
+    padding: 15px; 
+}
+p{
+    color: black;
+}
+.nav-link { 
+    color: #ffffff !important;
+}
+.nav-link.active {
+    font-weight: bold;
+}
+
+#newsCarousel {
+    position: relative;
+    max-width: 100%; 
+    margin: 0 auto;
+}
+
+
+#newsCarousel .carousel-item img {
+    width: 100%; 
+    height: 200px;
+}
+/* .text{
+    background-color: rgba(231, 231, 225, 0.5); 
+            width: 100%;
+            height: 70px;
+            position: absolute;
+            bottom: 0; 
+            left: 0; 
+            margin-bottom: 0; 
+            padding: 15px;
+            box-sizing: border-box;
+} */
+.carousel .text {
+    background-color: rgba(0, 0, 0, 0.5);
+    color: #fff;
+    padding: 15px;
+    border-radius: 5px;
+    position: absolute;
+    bottom: 10px;
+    left: 15px;
+    z-index: 10;
+    width: calc(100% - 30px);
+}
+.vacation_requests {
+    margin-top: 40px; 
+    padding: 15px; 
+    border-radius: 5px; 
+}
+
+#search{
+    border-radius: 20px;
+    outline: none;
+    border: 1px solid #ccc;
+}
+
+.bold{
+    font-weight: bold;
+}
+
+
+.view-more-link {
+    color: green;         
+    text-decoration: none; 
+    font-weight: bold;     
+}
+
+
+
+.label-check {
+    display: flex;
+    align-items: center;
+    cursor: pointer;
+    font-size: 25px;
+    user-select: none;
+}
+
+.label-check input {
+    position: absolute;
+    opacity: 0;
+    cursor: pointer;
+    height: 0;
+    width: 0;
+}
+
+.checkmark {
+    position: relative;
+    height: 1.3em;
+    width: 1.3em;
+    background: black;
+    border-radius: 50px;
+    transition: all 0.7s;
+    --spread: 20px;
+}
+
+.label-check input:checked ~ .checkmark {
+    background: black;
+    box-shadow: -10px -10px var(--spread) 0px #5B51D8, 0 -10px var(--spread) 0px #833AB4, 10px -10px var(--spread) 0px #E1306C, 10px 0 var(--spread) 0px #FD1D1D, 10px 10px var(--spread) 0px #F77737, 0 10px var(--spread) 0px #FCAF45, -10px 10px var(--spread) 0px #FFDC80;
+}
+
+.checkmark:after {
+    content: "";
+    position: absolute;
+    display: none;
+}
+
+.label-check input:checked ~ .checkmark:after {
+    display: block;
+}
+
+.checkmark:after {
+    left: 0.45em;
+    top: 0.25em;
+    width: 0.25em;
+    height: 0.5em;
+    border: solid #f0f0f0;
+    border-width: 0 0.15em 0.15em 0;
+    transform: rotate(45deg);
+}
+
+
+.card-checkbox {
+    position: absolute;
+    top: 10px;
+    left: 10px;
+    display: none;
+    width: 20px;
+    height: 20px;
+    border: 2px solid #ccc;
+    border-radius: 3px;
+    background-color: white;
+    cursor: pointer;
+}
+
+.card-checkbox:checked {
+    background-color: green;
+    border-color: green;
+}
+
+.card-checkbox:checked::after {
+    content: "\2713";
+    font-size: 16px;
+    color: white;
+    position: absolute;
+    top: 50%;
+    left: 50%;
+    transform: translate(-50%, -50%);
+}
+.card-checkbox {
+    position: absolute;
+    top: 10px;
+    left: 10px;
+    display: none;
+}
+.card-container {
+    position: relative;
+}
+.select-all:checked ~ .user-cards-container .card-checkbox {
+    display: block;
+}
